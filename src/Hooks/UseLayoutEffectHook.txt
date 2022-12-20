@@ -1,0 +1,10 @@
+After the DOM is done with painting the screen with mutated value, useEffect hook is triggered.
+
+In a nutshell, a useEffect hook only gets triggered once DOM is done painting the screen, making it asynchronous as it doesn't block the DOM manipulation on the screen
+As useLayoutEffect is synchronous, React waits for it to finish then updates the screen.
+
+As of rule of thumb, you can think of it as an App component that would wait to get visually updated until the useLayoutEffect has been finished running.
+
+This pauses the React component for a split second, as it is "waiting" for something to be finished, this behaviour might cause a performance hiccup.
+
+Hence performance-wise, useLayoutEffect can be expensive to run

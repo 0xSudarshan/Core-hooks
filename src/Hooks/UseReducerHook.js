@@ -5,7 +5,7 @@ const GLOBALSTATE = {
 }
 const UseReducerHook = () => {
   const reducer = (state, action) => {
-    console.log("action",action)
+    // console.log("action",action)
     switch (action.type) {
       case GLOBALSTATE.state1:
         return { count: state.count + 1, showText: state.showText };
