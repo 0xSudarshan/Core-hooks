@@ -1,0 +1,7 @@
+eg: if a button is resposible for changing multiple state instead of creating and updating various state u can create 
+a system that collectively tracks and updates all the state changes
+const [state,dispatch] = useReducer(reducer,{})
+state = multiple states u need to track 
+dispatch = any alteration u want to make in a state will be done using dispatch
+reducer = its a function, takes two arg one is the state( access to current state ) the other is the action (determine what we are going to do with each of the state)
+{} = initial state inside the reducer function 

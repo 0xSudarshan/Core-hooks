@@ -1,0 +1,9 @@
+useEffect renders each and evertime when there is a state update altho u can restrict to a rendering only 
+to a particular state update by mentioning the dependencies to useEffect 
+use Effect clean up function 
+return =()=>{
+    cleans up the code 
+
+}
+it avoids memory leaks and optimizes the code 
+exxample : two components : root App component 
