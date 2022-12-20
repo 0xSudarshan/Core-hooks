@@ -6,4 +6,7 @@ return =()=>{
 
 }
 it avoids memory leaks and optimizes the code 
-exxample : two components : root App component 
+case: when  clicked  on a button ur component will mount(add nodes to your dom) and when clicked again it will unmount(remove the dom nodes) 
+exxample : two components : root App component and child component in your child component we fetch the data where the api takes 10s seconds to fetch 
+data in the interim u click on the button again and the component unmounts leading to memry leaks cuz the data fetched will try to 
+add data to the unmounted component . so to inhibit this from happenning we use the clean up function
