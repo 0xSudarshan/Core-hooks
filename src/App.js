@@ -5,6 +5,8 @@ import UseReducerHook from './Hooks/UseReducerHook';
 import UseRefHook from './Hooks/UseRefHook';
 import UseStateHook from './Hooks/UseStateHook';
 import  UseImperativeHook from './Hooks/UseImperativeHook'
+import PracticeReducer from './Hooks/practiceReducer';
+import UseMemoHook from './Hooks/UseMemoCallBack';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
     <UseRefHook></UseRefHook>
     <UseLayoutEffectHook></UseLayoutEffectHook>
     <UseImperativeHook></UseImperativeHook>
+    <PracticeReducer></PracticeReducer>
+    <UseMemoHook></UseMemoHook>
     
     </>
   );

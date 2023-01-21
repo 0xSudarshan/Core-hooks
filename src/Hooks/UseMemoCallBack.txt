@@ -1,0 +1,8 @@
+when to use useMemo?
+if u need to cache a the result of a invoked function then use useMemo
+supposing u have two buttons and and one button is responsible for updating count and checking if its odd or even and rendering it 
+it on page and other for just incrementing counter . but for every state update the rendering happens and the check even or odd function
+is called 
+
+when to use useCallBack?
+if u need to cache a function use callback 
