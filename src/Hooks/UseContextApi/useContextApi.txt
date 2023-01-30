@@ -1,0 +1,5 @@
+it offers state management in react . to organise ur states and manage ur states.
+react prop drilling : passing one prop from parent to child to grandchild u need to follow heirarchy otherwise wont able to pass
+props to grandchild but there is a unecessary passing of props in child ??
+using use context can avoid prop drilling
+disadvantages of useContext if one of the compoennt renders then all of them does 
